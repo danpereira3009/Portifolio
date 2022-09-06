@@ -1,10 +1,9 @@
-import ContainerProjetos from "./ContainerProjetos"
-import "./index.css"
+import ContainerProjetos from "../../components/atoms/ContainerProjetos"
 
 export default () => 
 
-<section class="container grid">
-    <ContainerProjetos src=""> </ContainerProjetos>
+
+<section class="flex gap-5 items-center justify-center mb-10">
     <ContainerProjetos src=""> </ContainerProjetos>
     <ContainerProjetos src=""> </ContainerProjetos>
     <ContainerProjetos src=""> </ContainerProjetos>

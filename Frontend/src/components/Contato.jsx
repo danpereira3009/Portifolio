@@ -1,5 +1,4 @@
 import { Component } from 'react'
-import './index.css'
 
 export default class Contato extends Component {
     render() {
@@ -20,13 +19,15 @@ export default class Contato extends Component {
                     <input class="w-[25em] bg-[#DBDBDB] m-2 rounded p-4 uppercase text-sm" type="text" placeholder="Nome"></input>
                     <input class="w-[25em] bg-[#DBDBDB] m-2 rounded p-4 uppercase text-sm" type="email" required placeholder="e-mail"></input>
                 </div>
+
                 <input class="w-[51.1em] bg-[#DBDBDB] m-2 rounded p-4 uppercase text-sm" type="text" placeholder="Assunto"></input>
                 <input class="w-[51.1em] bg-[#DBDBDB] m-2 rounded p-4 uppercase text-sm" type="text" placeholder="Mensagem"></input>
+                
             </div>
 
             <button 
             type='submit'
-            className='
+            className="
             mt-6 
             mr-2 
             w-40 
@@ -43,7 +44,7 @@ export default class Contato extends Component {
             hover:scale-105 
             active:scale-95 
             duration-500 
-            hover:duration-500'>Enviar</button>
+            hover:duration-500">Enviar</button>
 
         </div>
 </section>
