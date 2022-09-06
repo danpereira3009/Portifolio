@@ -5,7 +5,12 @@ export default class ButtonHeader extends Component {
         return (
 
 <div>
-    <button onClick={this.props.onClick}><img src={this.props.src} alt={this.props.alt} /></button>
+    <button 
+        className=""
+        onClick={this.props.onClick}>
+            <img src={this.props.src} alt={this.props.alt} />
+    
+    </button>
 </div>
 
         )

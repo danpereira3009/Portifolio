@@ -8,9 +8,9 @@ import Contato from "../../components/Contato";
 
 export default () =>
 
-<section className="bg-gray-800 overflow-hidden">
+<section className="bg-gray-800">
     <Sidebar />
-    <div className="ml-[100px]">
+    <div className="pl-[100px] overflow-hidden">
         <Saudacao />
         <Projetos />
         <Contato />
