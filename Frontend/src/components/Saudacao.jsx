@@ -7,7 +7,7 @@ export default () =>
     </div>
 
     <div className="mt-16">
-        <h1 className="mt-[1em] font-serif text-4xl">Meu portifólio</h1>
-        <h2 className="mt-[1em] font-serif text-2xl">Uma pequena amostra dos projetos que trabalhei recentemente. Eu realizei juntamente com uma equipe incrível de empresas que trabalhei.</h2>
+        <h1 className="mt-[1em] font-serif text-4xl">Este é meu portifólio</h1>
+        <h2 className="mt-[1em] font-serif text-2xl">Uma pequena amostra dos projetos que trabalhei, juntamente com uma equipe incrível formada por pessoas de todo Brasil.</h2>
     </div>
 </div>
