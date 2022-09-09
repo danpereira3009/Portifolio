@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 export default () => 
 
 
-<section class="flex gap-5 items-center justify-center mb-10">
+<section class="flex md:flex-row flex-col gap-5 items-center justify-center mb-10">
     <Link to="/adopet"><ContainerProjetos src={Adopet}></ContainerProjetos></Link>
     <Link to="/amanda"><ContainerProjetos src={Amanda}></ContainerProjetos></Link>
 

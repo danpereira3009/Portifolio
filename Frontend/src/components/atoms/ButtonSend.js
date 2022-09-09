@@ -15,8 +15,9 @@ self-center
 text-xl 
 text-white
 shadow-white
-hover:bg-white 
+hover:bg-red-500 
 hover:text-black
+bg-blue-800
 rounded-xl 
 shadow-sm 
 font-bold 
