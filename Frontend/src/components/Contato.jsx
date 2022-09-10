@@ -31,11 +31,11 @@ function salvarMensagem() {
 
 return (
     
-<section className='bg-gradient-to-t from-[#646165] to-blue-800 md:flex justify-evenly pb-6'>
+<section className='bg-gradient-to-t from-[#646165] to-blue-800 md:flex justify-evenly pb-6 font-light'>
 
             <div className="text-white pt-8 md:w-[40vw] relative md:top-24">
                 <h1 className="md:text-4xl text-2xl text-center">Entre em contato</h1>
-                <h1 className="md:text-2xl text-lg p-6 md:p-0 font-serif mt-4 text-justify ">
+                <h1 className="md:text-2xl text-lg p-6 md:p-0 mt-4 text-justify ">
                     Estou sempre interessado em projetos freelance e oportunidade de trabalho CLT / PJ. <br/>
                     Se você tiver interesse em contratar meus serviços não exite em utilizar o formulário abaixo.
                 </h1>
