@@ -6,7 +6,7 @@ export default class ButtonHeader extends Component {
 
 <div>
     <button 
-        className="hover:scale-110 duration-300"
+        className="hover:scale-110 duration-300 mr-2"
         onClick={this.props.onClick}>
             <img src={this.props.src} alt={this.props.alt} />
     

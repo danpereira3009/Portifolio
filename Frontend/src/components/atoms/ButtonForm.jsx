@@ -14,8 +14,7 @@ h-14
 self-center 
 text-xl 
 text-white
-shadow-white
-hover:bg-red-500 
+hover:bg-gray-400 
 hover:text-black
 bg-blue-800
 rounded-xl 

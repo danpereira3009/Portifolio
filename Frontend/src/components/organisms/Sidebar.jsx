@@ -1,4 +1,5 @@
 import React from "react";
+import { Component } from "react";
 import { Link } from 'react-router-dom'
 import Linkedin from '../../assets/linkedin.svg'
 import Facebook from '../../assets/facebook.svg'
@@ -16,7 +17,9 @@ function openNewTab(url) {
     win.focus()
 }
 
-export default () => 
+export default class Home extends Component {
+    render() {
+        return (
 
 <section className="bg-slate-600 h-[100vh] w-[100px] fixed z-10 hidden md:block">
 
@@ -25,15 +28,19 @@ export default () =>
         </div>
 
         <div className="text-black font-mono flex flex-col gap-4 items-center justify-center relative top-[10em]">
-            <H1Header text="sobre"></H1Header>
+            <H1Header onClick={this.props.onClick} text="home"></H1Header>
             <H1Header text="skills"></H1Header>
             <H1Header text="contato"></H1Header>
         </div>
 
-        <div className="gap-2 flex items-center justify-center relative top-[20em]">
+        <div className="flex items-center justify-center relative top-[20em]">
             <ButtonHeader onClick={() => openNewTab(linkedin)} src={Linkedin} alt="linkedin" />
             <ButtonHeader onClick={() => openNewTab(facebook)} src={Facebook} alt="facebook" />
             <ButtonHeader onClick={() => openNewTab(github)} src={Github} alt="github" />
         </div>
 
 </section>
+
+        )
+    }  
+}

@@ -8,7 +8,7 @@ export default () =>
 
     <div className="mt-16">
         <h1 className="md:text-4xl text-3xl">Este é meu portifólio</h1>
-        <h2 className="pt-4 md:text-2xl text-lg max-w-[25em] text-justify">Uma pequena amostra dos projetos que trabalhei, juntamente com uma equipe incrível formada por pessoas de todo Brasil.</h2>
+        <h2 className="pt-4 md:text-2xl text-lg md:max-w-[25em] max-w-[15em] text-justify">Uma pequena amostra dos projetos que trabalhei, juntamente com uma equipe incrível formada por pessoas de todo Brasil.</h2>
     </div>
 </div>
 

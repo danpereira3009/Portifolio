@@ -23,7 +23,7 @@ function CarouselProjetos() {
     return (
 
 <section className="mb-8 pl-4">
-    <div class="carousel flex gap-5 mb-4 overflow-x-auto scroll-smooth" ref={carousel}>
+    <div class="carousel flex mb-4 overflow-x-auto scroll-smooth gap-6 mr-4" ref={carousel}>
         <Link to="/adopet"><ContainerProjetos src={Adopet}></ContainerProjetos></Link>
         <Link to="/amanda"><ContainerProjetos src={Amanda}></ContainerProjetos></Link>
         <Link to="/adopet"><ContainerProjetos src={Adopet}></ContainerProjetos></Link>

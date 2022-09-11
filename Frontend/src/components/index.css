@@ -1,3 +1,11 @@
 .carousel::-webkit-scrollbar {
     display: none
 }
+
+.carousel {
+    scroll-snap-type: x mandatory
+}
+
+.scroll-area {
+    scroll-snap-align: start
+}

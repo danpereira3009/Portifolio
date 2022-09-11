@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import Home from "./components/pages/Home/Home"
+import Home from "./components/pages/Home/Index"
 import Adopet from "./components/pages/Projetos/Adopet"
 import Amanda from "./components/pages/Projetos/Amanda"
 
