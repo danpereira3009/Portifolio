@@ -1,10 +1,10 @@
 import React from "react";
-import Whats from "../../components/Whats"
-import Saudacao from "../../components/Saudacao";
-import Sidebar from "../../components/Sidebar";
-import Projetos from "../Projetos/Projetos";
-import Contato from "../../components/Contato";
-import Skills from "../../components/Skills";
+import Whats from "../../atoms/Whats"
+import Saudacao from "../../organisms/Saudacao"
+import Sidebar from "../../organisms/Sidebar"
+import Projetos from "../../organisms/Projetos"
+import Contato from "../../organisms/Contato"
+import Skills from "../../organisms/Skills"
 
 export default () =>
 

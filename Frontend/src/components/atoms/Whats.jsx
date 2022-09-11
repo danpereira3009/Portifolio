@@ -1,4 +1,4 @@
-import Whats from "../assets/whats.svg"
+import Whats from "../../assets/whats.svg"
 
 export default () =>
 

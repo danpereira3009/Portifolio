@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from 'react-router-dom'
-import Linkedin from '../assets/linkedin.svg'
-import Facebook from '../assets/facebook.svg'
-import Github from '../assets/git.svg'
-import Logo from '../assets/logo.png'
-import H1Header from "./atoms/H1Header";
-import ButtonHeader from "./atoms/ButtonHeader"
+import Linkedin from '../../assets/linkedin.svg'
+import Facebook from '../../assets/facebook.svg'
+import Github from '../../assets/git.svg'
+import Logo from '../../assets/logo.png'
+import H1Header from "../atoms/H1Header";
+import ButtonHeader from "../atoms/ButtonHeader"
+
 const facebook = 'https://www.facebook.com/profile.php?id=100076455139798';
 const linkedin = 'https://www.linkedin.com/in/danielluizpereira87';
 const github = 'https://github.com/danpereira3009';

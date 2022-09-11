@@ -11,3 +11,4 @@ export default () =>
         <h2 className="pt-4 md:text-2xl text-lg">Uma pequena amostra dos projetos que trabalhei, juntamente com uma equipe incrível formada por pessoas de todo Brasil.</h2>
     </div>
 </div>
+

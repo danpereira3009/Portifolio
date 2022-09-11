@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import Home from "./views/Home/Index";
-import Adopet from "./views/Projetos/Adopet"
-import Amanda from "./views/Projetos/Amanda"
+import Home from "./components/pages/Home/Home"
+import Adopet from "./components/pages/Projetos/Adopet"
+import Amanda from "./components/pages/Projetos/Amanda"
 
 
 export default function AppRouter() {
