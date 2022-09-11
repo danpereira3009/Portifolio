@@ -5,7 +5,7 @@ export default () =>
 
 <section className="md:ml-10 p-6">
 
-    <h1 className="text-red-600 text-5xl font-bold text-center">Habilidades e Experiências</h1>
+    <h1 className="text-white shadow-sm text-5xl font-bold text-center">Habilidades e Experiências</h1>
     
     <div className="flex justify-center md:flex-row flex-col gap-8 m-6 text-xl">
         

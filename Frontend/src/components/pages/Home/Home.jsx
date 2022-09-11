@@ -10,7 +10,7 @@ export default () =>
 
 <section className="bg-gradient-to-t from-gray-500 to-gray-800 overflow-hidden">
     <Sidebar />
-    <div className="pl-[100px]">
+    <div className="md:pl-[100px]">
         <Saudacao />
         <Projetos />
         <Skills />

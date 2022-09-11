@@ -18,7 +18,7 @@ function openNewTab(url) {
 
 export default () => 
 
-<section className="bg-slate-600 h-[100vh] w-[100px] fixed z-10">
+<section className="bg-slate-600 h-[100vh] w-[100px] fixed z-10 hidden md:block">
 
         <div>
             <Link to="/"><img className="hover:cursor-pointer w-32 h-26 bg-slate-500" src={Logo} alt="logo"/></Link>
