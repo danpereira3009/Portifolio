@@ -1,6 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Nanum+Myeongjo:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&family=Nanum+Myeongjo:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap');
+
+/* font-family: 'Nabla', cursive; */
+/* font-family: 'Nanum Myeongjo', serif; */
+
 .App {
   text-align: center;
-  
+}
+
+.saudacao {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.letter {
+  font-family: 'Goblin One', cursive;
 }
 
 .App-logo {

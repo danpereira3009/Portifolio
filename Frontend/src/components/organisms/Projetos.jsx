@@ -12,12 +12,12 @@ function CarouselProjetos() {
 
     const handleLeftClick = (e) => {
         e.preventDefault();
-        carousel.current.scrollLeft -= 500
+        carousel.current.scrollLeft -= 400
     }
 
     const handleRightClick = (e) => {
         e.preventDefault();
-        carousel.current.scrollLeft += 500
+        carousel.current.scrollLeft += 400
     }
 
     return (

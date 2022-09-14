@@ -1,9 +1,11 @@
+import "../../App.css"
+
 export default () =>
 
 <div className="h-[30em] md:text-left text-white relative top-12 left-12 font-light">
 
     <div>
-        <h1 className="md:text-6xl text-3xl">Olá, <br/> Meu nome é <span className="text-red-600">D</span>aniel <br/> web developer</h1>
+        <h1 className="saudacao md:text-6xl text-3xl">Olá, <br/> Meu nome é <span className="text-red-600 letter">D</span>aniel <br/> web developer</h1>
     </div>
 
     <div className="mt-16">
