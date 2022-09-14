@@ -64,10 +64,10 @@ return (
 
     <div className="container_ flex flex-col items-center relative -bottom-[35em] mb-20">
 
-        <InputWithLabel id="Nome" htmlFor="Nome" text="Nome" placeholder="Digite seu Nome :)" onChange={(e) => {setNome(e.target.value)}}></InputWithLabel>                    
-        <InputWithLabel id="E-Mail" htmlFor="E-Mail" text="E-mail" placeholder="Digite seu melhor e-mail :)" onChange={(e) => {setEmail(e.target.value)}}></InputWithLabel>
-        <InputWithLabel id="Assunto" htmlFor="Assunto" text="Assunto" placeholder="Conte-me o motivo do seu contato :)" onChange={(e) => {setAssunto(e.target.value)}}></InputWithLabel>
-        <TextAreaWithLabel id="Mensagem" htmlFor="Mensagem" text="Mensagem" placeholder="Deixe sua mensagem :)" onChange={(e) => {setMensagem(e.target.value)}}></TextAreaWithLabel>
+        <InputWithLabel text="Nome" placeholder="Digite seu Nome :)" onChange={(e) => {setNome(e.target.value)}}></InputWithLabel>                    
+        <InputWithLabel text="E-mail" placeholder="Digite seu melhor e-mail :)" onChange={(e) => {setEmail(e.target.value)}}></InputWithLabel>
+        <InputWithLabel text="Assunto" placeholder="Conte-me o motivo do seu contato :)" onChange={(e) => {setAssunto(e.target.value)}}></InputWithLabel>
+        <TextAreaWithLabel text="Mensagem" placeholder="Deixe sua mensagem :)" onChange={(e) => {setMensagem(e.target.value)}}></TextAreaWithLabel>
         <ButtonForm text="Enviar" onClick={salvarMensagem}/>
 
     </div>

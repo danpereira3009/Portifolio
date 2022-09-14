@@ -6,6 +6,10 @@ import Arrow from "../atoms/Arrow"
 import { useRef } from 'react'
 import "../index.css"
 
+function openAmanda() {
+    window.open("https://www.amandaapolinario.com.br/")
+}
+
 function CarouselProjetos() {
 
     const carousel = useRef(null)
@@ -25,13 +29,7 @@ function CarouselProjetos() {
 <section className="mb-8 pl-4">
     <div class="carousel flex mb-4 overflow-x-auto scroll-smooth gap-6 mr-4" ref={carousel}>
         <Link to="/adopet"><ContainerProjetos src={Adopet}></ContainerProjetos></Link>
-        <Link to="/amanda"><ContainerProjetos src={Amanda}></ContainerProjetos></Link>
-        <Link to="/adopet"><ContainerProjetos src={Adopet}></ContainerProjetos></Link>
-        <Link to="/amanda"><ContainerProjetos src={Amanda}></ContainerProjetos></Link>
-        <Link to="/adopet"><ContainerProjetos src={Adopet}></ContainerProjetos></Link>
-        <Link to="/amanda"><ContainerProjetos src={Amanda}></ContainerProjetos></Link>
-        <Link to="/adopet"><ContainerProjetos src={Adopet}></ContainerProjetos></Link>
-        <Link to="/amanda"><ContainerProjetos src={Amanda}></ContainerProjetos></Link>
+        <ContainerProjetos src={Amanda} onClick={openAmanda}></ContainerProjetos>
     </div>
 
     <div className="flex items-center justify-center gap-4">
