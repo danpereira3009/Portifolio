@@ -12,12 +12,15 @@ export default () =>
 
         <ButtonHome />
 
-        <h1 className="text-5xl p-5 text-orange-600 font-bold">Adopet - Site de Adoção de Pets</h1>
+        <h1 className="md:text-5xl p-5 text-orange-600 font-bold">Adopet - Site de Adoção de Pets</h1>
     </div>
 
-    <ImagemProjetos src={Login} alt="Imagem da tela de login" />
-    <ImagemProjetos src={Cadastro} alt="Imagem da tela de cadastro de animais" />
-    <ImagemProjetos src={Animais} alt="Imagem da tela com os animais cadastrados" />
+    <div className="gap-4 flex md:flex-row flex-col md:justify-center mt-8">
 
+        <ImagemProjetos src={Login} alt="Imagem da tela de login" />
+        <ImagemProjetos src={Cadastro} alt="Imagem da tela de cadastro de animais" />
+        <ImagemProjetos src={Animais} alt="Imagem da tela com os animais cadastrados" />
+
+    </div>
 
 </section>

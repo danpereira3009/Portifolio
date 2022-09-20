@@ -6,7 +6,7 @@ function toHome() {
 
 export default () =>
 
-<div className="fixed right-28 gap-4">
+<div className="absolute right-28 gap-4">
     <img src={Home} onClick={toHome} className="peer w-8 h-8 hover:cursor-pointer self-center hover:scale-110" 
     alt="botão para retornar a Home"/>
 

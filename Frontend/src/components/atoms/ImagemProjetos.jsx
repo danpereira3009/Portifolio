@@ -1,9 +1,20 @@
-import { Component } from "react";
+import { useState } from "react";
 
-export default class ImagemProjetos extends Component {
-    render() {
+
+function ImagemProjetos(props) {
+
+        const [themeClass, setThemeClass] = useState("notClicked")
+
+        const handleClick = () => {
+            if(themeClass === "notClicked"){
+                setThemeClass("clicked")
+            } else
+            setThemeClass("notClicked")
+        }
+
         return (
-        <img className="mb-2" src={this.props.src} alt={this.props.alt} />
+        <img onClick={handleClick} className={themeClass} src={props.src} alt={props.alt} />
         )
-    }  
-}
+    } 
+
+export default ImagemProjetos

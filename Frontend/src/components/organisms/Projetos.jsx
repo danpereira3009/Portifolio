@@ -1,5 +1,6 @@
 import ContainerProjetos from "../molecules/ContainerProjetos"
 import Adopet from "../../assets/adopet.png"
+import Galoa from "../../assets/galoa-pagina1.png"
 import Amanda from "../../assets/amanda.png"
 import { Link } from "react-router-dom"
 import Arrow from "../atoms/Arrow"
@@ -27,15 +28,18 @@ function CarouselProjetos() {
     return (
 
 <section className="mb-8 pl-4">
+
     <div class="carousel flex mb-4 overflow-x-auto scroll-smooth gap-6 mr-4" ref={carousel}>
         <Link to="/adopet"><ContainerProjetos src={Adopet}></ContainerProjetos></Link>
-        <ContainerProjetos src={Amanda} onClick={openAmanda}></ContainerProjetos>
+        <Link to=""><ContainerProjetos src={Amanda} onClick={openAmanda}></ContainerProjetos></Link>
+        <Link to="/galoa"><ContainerProjetos src={Galoa}></ContainerProjetos></Link>
     </div>
 
     <div className="flex items-center justify-center gap-4">
         <Arrow onClick={handleLeftClick}/>
         <Arrow onClick={handleRightClick} className="rotate-180" />
     </div>
+
 </section>
 
         )
